@@ -1,5 +1,4 @@
-# ios-go-example
-Current status: Work in progress...   
+# ios-go-example (Work in progress...)     
 Example iOS app that used Go mobile
 
 ### Prerequisites
