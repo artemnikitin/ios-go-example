@@ -5,6 +5,6 @@ Example iOS app that used Go mobile
 You should have valid credentials to use HERE REST API. If you don't have it register on https://developer.here.com/
 
 ### Setup
-1. Setup https://github.com/artemnikitin/android-go-shared as described in readme
-2. Clone this repo  
-3. Setup for Xcode will be here
+1. Clone this repo  
+2. Build https://github.com/artemnikitin/android-go-shared with command `gomobile bind -target=ios` and copy resulting **Hereapi.framework** to this repo
+3. Open project with Xcode and add **Hereapi.framework** from **Files** -> **Add files to** to the project
